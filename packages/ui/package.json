@@ -1,0 +1,45 @@
+{
+  "name": "@wachsenhaus/ui",
+  "packageManager": "yarn@3.3.1",
+  "version": "0.0.2",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "최영훈 <bi9choi@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wachsenhaus/wlash.git"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "publish": "yarn npm publish"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vite-plugin-dts": "^1.7.1",
+    "vite-tsconfig-paths": "^4.0.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}

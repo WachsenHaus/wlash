@@ -1,0 +1,14 @@
+{
+  "extends": "../common/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "allowJs": false,
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "baseUrl": ".",
+    "paths": {
+      "@wlash/ui/*": ["./src/*"]
+    }
+  },
+}
