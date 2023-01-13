@@ -5,5 +5,10 @@ export const Buttons = () => {
     console.log("button");
     console.log("button");
   }, []);
-  return <div>Buttons</div>;
+  return (
+    <>
+      <div className="text-3xl text-center">Buttons</div>;
+      <div className="ml">Buttons</div>;
+    </>
+  );
 };
