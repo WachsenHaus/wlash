@@ -8,6 +8,9 @@
     "publish": {
       "dependsOn": ["^publish"]
     },
+    "dev": {
+      "dependsOn": ["^dev"]
+    },
     "lint": {}
   }
 }
