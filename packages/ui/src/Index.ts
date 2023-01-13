@@ -1,1 +1,2 @@
-export * from './Buttons'
+import "index.css";
+export * from "./Buttons";
