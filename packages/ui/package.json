@@ -25,6 +25,7 @@
   },
   "scripts": {
     "build": "tsc && vite build",
+    "dev": "vite build --watch",
     "publish": "yarn npm publish"
   },
   "devDependencies": {
