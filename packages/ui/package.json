@@ -1,8 +1,9 @@
 {
   "name": "@wachsenhaus/ui",
   "packageManager": "yarn@3.3.1",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
   "author": "최영훈 <bi9choi@gmail.com>",
