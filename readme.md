@@ -11,5 +11,5 @@ Wlash는 타입스크립트로 구성하는 UI / 유틸라이브러리에요!
 ### 🎶 Todo 🎶
 
 - [x] app / storybook 적용
-- [ ] ui / tailwindcss 적용
+- [x] ui / tailwindcss 적용
 - [ ] master로 pr이 merged 된다면 빌드와 배포를 진행하는 깃헙액션구축.
